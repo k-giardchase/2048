@@ -1,5 +1,4 @@
-angular
-.module('Game', [])
+angular.module('Game', [])
 .service('GameManager', function() {
   //Create a new game
   this.newGame = function() {};
