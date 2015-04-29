@@ -1,0 +1,88 @@
+#game {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+#game .grid-container {
+  position: absolute;
+  z-index: 1;
+  margin: 0 auto;
+}
+#game .grid-container .grid-cell {
+  width: 81.25px;
+  height: 81.25px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+#game .tile-container {
+  position: absolute;
+  z-index: 2;
+}
+#game .tile-container .tile {
+  width: 81.25px;
+  height: 81.25px;
+}
+#game .tile-container .tile.position-0-0 {
+  -webkit-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+#game .tile-container .tile.position-0-1 {
+  -webkit-transform: translate(0px, 96.25px);
+  transform: translate(0px, 96.25px);
+}
+#game .tile-container .tile.position-0-2 {
+  -webkit-transform: translate(0px, 192.5px);
+  transform: translate(0px, 192.5px);
+}
+#game .tile-container .tile.position-0-3 {
+  -webkit-transform: translate(0px, 288.75px);
+  transform: translate(0px, 288.75px);
+}
+#game .tile-container .tile.position-1-0 {
+  -webkit-transform: translate(96.25px, 0px);
+  transform: translate(96.25px, 0px);
+}
+#game .tile-container .tile.position-1-1 {
+  -webkit-transform: translate(96.25px, 96.25px);
+  transform: translate(96.25px, 96.25px);
+}
+#game .tile-container .tile.position-1-2 {
+  -webkit-transform: translate(96.25px, 192.5px);
+  transform: translate(96.25px, 192.5px);
+}
+#game .tile-container .tile.position-1-3 {
+  -webkit-transform: translate(96.25px, 288.75px);
+  transform: translate(96.25px, 288.75px);
+}
+#game .tile-container .tile.position-2-0 {
+  -webkit-transform: translate(192.5px, 0px);
+  transform: translate(192.5px, 0px);
+}
+#game .tile-container .tile.position-2-1 {
+  -webkit-transform: translate(192.5px, 96.25px);
+  transform: translate(192.5px, 96.25px);
+}
+#game .tile-container .tile.position-2-2 {
+  -webkit-transform: translate(192.5px, 192.5px);
+  transform: translate(192.5px, 192.5px);
+}
+#game .tile-container .tile.position-2-3 {
+  -webkit-transform: translate(192.5px, 288.75px);
+  transform: translate(192.5px, 288.75px);
+}
+#game .tile-container .tile.position-3-0 {
+  -webkit-transform: translate(288.75px, 0px);
+  transform: translate(288.75px, 0px);
+}
+#game .tile-container .tile.position-3-1 {
+  -webkit-transform: translate(288.75px, 96.25px);
+  transform: translate(288.75px, 96.25px);
+}
+#game .tile-container .tile.position-3-2 {
+  -webkit-transform: translate(288.75px, 192.5px);
+  transform: translate(288.75px, 192.5px);
+}
+#game .tile-container .tile.position-3-3 {
+  -webkit-transform: translate(288.75px, 288.75px);
+  transform: translate(288.75px, 288.75px);
+}

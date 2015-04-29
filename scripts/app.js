@@ -1,4 +1,5 @@
 angular
-  .module('twentyfortyeightApp', [])
-  .controller('GameController', function() {  
+  .module('twentyfortyeightApp', ['Game'])
+  .controller('GameController', function(GameManager) {
+    this.game = GameManger;
   });
