@@ -1,1 +1,4 @@
-angular.module('twentyfortyeightApp', []);
+angular
+  .module('twentyfortyeightApp', [])
+  .controller('GameController', function() {  
+  });
